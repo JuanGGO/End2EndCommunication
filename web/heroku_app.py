@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello World! Heroku'
+    return '<h1>Hello World! Heroku<h1>'
 
 
 if __name__ == '__main__':
